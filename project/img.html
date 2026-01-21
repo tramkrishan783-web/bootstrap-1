@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <style>
+        *{
+            background-color:black;
+        }
+        .header {
+            /* position: fixed; */
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            position: relative;
+            font-size: 25px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .navbar a {
+            display: inline-block;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transform: .3s;
+
+        }
+
+        .navbar a:hover {
+            color: #0ef;
+        }
+
+        .card {
+            display: flex;
+        }
+        .h5,p{
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header class="header">
+            <a href="#" class="logo">
+                <!-- Portfolio  -->
+                <!-- <img src="logo.jpg" width="160" alt=""> -->
+            </a>
+            <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="ABOUT.html">About</a>   
+            <a href="skile.html">Skills</a>
+            <a href="img.html">Images</a>
+            <a href="Contact.html">content</a>
+
+            </nav>
+        </header>
+    </div><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="py.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PYTHON</h5>
+                    <p class="card-text">Python is a high-level, general-purpose programming language known for its readability and simplicity. It was created by Guido van Rossum and first released in 199</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">PYTHON-TITLE</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="jaaaha.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">JAVASCRIPT</h5>
+                    <p class="card-text">JavaScript is a dynamic, interpreted programming language that powers interactivity on the web. Alongside HTML (structure) and CSS (style)</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">JAVASCRIPT-TITLE</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="php.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">PHP (Hypertext Preprocessor) is a widely-used, open-source scripting language designed primarily for web development.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">PHP-TITle</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2 -->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="j2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JavaScript-CODE</h5>
+        <p class="card-text">The document.createElement() method is used to create an HTML element dynamically. This method can be used to create an <img> element and set its attributes such as src, width, height, and alt. Here is an example:</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="PY222.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PYTHON-CODE</h5>
+        <p class="card-text">Advantages: Simplifies file path management and avoids directory traversal issues. Use a Dedicated Subdirectory for ImagesCreate a folder (e.g., images/) within your project directory to store all image files. Reference the images using relative paths.
+
+Example:</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="PHP22.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PHP-CODE</h5>
+        <p class="card-text">Got it — heres a complete, runnable PHP example that demonstrates basic PHP syntax, input handling, and output.
+This example calculates the LCM (Least Common Multiple) of two numbers, similar to the C example earlier, but in PHP.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="css.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ALL OF ANE</h5>
+        <p class="card-text">In computer science, CSS (Cascading Style Sheets) is a stylesheet language used to define the presentation of HTML documents. It allows developers to control the appearance of web pages by specifying styles such as colors, fonts, layouts, and spacing. CSS separates content (HTML) from design, enabling easier maintenance and reusability.A CSS class is a reusable style definition that can be applied to multiple HTML elements. It is defined using a period (.) followed by the class name in a CSS rule. For example:</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
